@@ -6,6 +6,9 @@
   [![Online Demo](https://img.shields.io/badge/online%20demo-ucooo.tech-4f7df3)](https://ucooo.tech/)
   [![uni-app](https://img.shields.io/badge/framework-uni--app-2b9939)](https://uniapp.dcloud.net.cn/)
   [![License](https://img.shields.io/badge/license-Apache--2.0-f56c6c)](./LICENSE)
+
+  <p><strong>用户端免费开源 · 完整系统源码可咨询 · 支持部署与二次开发合作</strong></p>
+  <p><a href="#获取完整源码"><strong>获取完整源码与配套后台 →</strong></a></p>
 </div>
 
 ## 项目简介
@@ -20,6 +23,26 @@ UCOOO 是一个基于 uni-app 开发的社交应用用户端，围绕用户发�
 - 当前开源版本：`1.3.3`
 
 演示站连接线上服务，请勿提交真实隐私信息、批量注册或进行压力测试。
+
+## 获取完整源码
+
+> **只开源用户端，不代表项目只有用户端。** 如果你想更快落地自己的社交产品，不想从零补齐后端、管理后台、数据库、IM、支付和部署流程，可以联系我了解可直接二次开发的完整项目源码。
+
+完整项目可咨询以下内容：
+
+- 用户端、服务端、管理后台与数据库
+- 即时通讯、支付、对象存储及相关对接方案
+- H5、Android、iOS 构建与部署资料
+- 完整项目部署、二次开发与商业合作
+
+<div align="center">
+  <h3>需要完整源码？加入 QQ 群直接联系</h3>
+  <p><strong>四叶酒馆聊天群：1083699002</strong></p>
+  <img src="./docs/images/qq-group.jpg" width="420" alt="四叶酒馆聊天群二维码">
+  <p><strong>扫码或搜索群号加入，进群请备注：UCOOO 完整源码</strong></p>
+</div>
+
+完整版本、授权方式、交付内容与技术支持范围以群内说明为准。
 
 ## 功能模块
 
@@ -51,6 +74,8 @@ UCOOO 是一个基于 uni-app 开发的社交应用用户端，围绕用户发�
 ### 官网推广统计
 
 ![配套后台官网推广统计](./docs/images/admin-promotion-stats.png)
+
+> 想获取与上述后台配套的服务端、数据库和部署资料？请查看[获取完整源码](#获取完整源码)，加入 QQ 群联系。
 
 ## 技术栈
 
@@ -144,9 +169,10 @@ npm test
 
 本项目仅供技术交流与合法用途。使用者应自行遵守所在地关于隐私、数据保护、内容治理、支付与社交产品运营的法律法规，并对部署、运营及二次开发行为承担责任。
 
-## 作者
+## 交流与合作
 
 - GitHub：[@pqiyao](https://github.com/pqiyao)
 - 项目演示：[ucooo.tech](https://ucooo.tech/)
+- QQ 群：`1083699002`（四叶酒馆聊天群）
 
-如果这个项目对你有帮助，可以通过 Star 关注后续更新。
+如果这个项目对你有帮助，可以通过 Star 关注后续更新；需要完整源码、部署支持或项目合作，请加入 QQ 群联系。
