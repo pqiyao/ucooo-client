@@ -63,17 +63,25 @@ UCOOO 是一个基于 uni-app 开发的社交应用用户端，围绕用户发�
 
 以下截图展示 UCOOO 配套后台的运营管理能力。**本仓库仅开源用户端，后台管理端、服务端与数据库源码均不包含在本仓库中。**
 
-### 多语言与会员配置
-
-![配套后台多语言配置](./docs/images/admin-language-config.png)
-
-### App 版本发布
-
-![配套后台 App 版本发布](./docs/images/admin-app-release.png)
-
 ### 官网推广统计
 
 ![配套后台官网推广统计](./docs/images/admin-promotion-stats.png)
+
+### 会员管理
+
+![配套后台会员管理](./docs/images/admin-member-management.png)
+
+### App 版本发布配置
+
+![配套后台 App 版本发布配置](./docs/images/admin-app-version-dialog.png)
+
+### 相册内容审核
+
+![配套后台相册内容审核](./docs/images/admin-album-list.png)
+
+### 多语言与会员配置
+
+![配套后台多语言与会员配置](./docs/images/admin-language-config.png)
 
 > 想获取与上述后台配套的服务端、数据库和部署资料？请查看[获取完整源码](#获取完整源码)，加入 QQ 群联系。
 
