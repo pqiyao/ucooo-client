@@ -1,0 +1,446 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^pay-kefu-fab$": "@/components/pay-kefu-fab/pay-kefu-fab.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/index/index",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/login/reg",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/login/forget",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/perfect/perfect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},{
+			"path" : "pages/work/work",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/index/sousuo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/userdetail",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/swipe",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/tadynamic",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/dynamicdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/taphoto",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/tadetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/report",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/work/send",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/focus",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/dongtai",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/whome",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/myzan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/myvip",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/user/mymoney",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/user/editziliao",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/user/edittag",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/gift",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/myphoto",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/user/giftshop",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/sendgift",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/set",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/language",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/blackname",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/numanquan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/editpwd",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/bind-email",
+			"style" : 
+			{
+				"navigationBarTitleText" : "绑定邮箱",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/aboutmy",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/chat/systemmsg",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/dongtailist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/system/app-update",
+			"style" :
+			{
+				"navigationStyle" : "custom",
+				"disableScroll" : true,
+				"animationType" : "fade-in",
+				"animationDuration" : 180,
+				"app-plus" : {
+					"background" : "transparent",
+					"popGesture" : "none"
+				}
+			}
+		},
+		{
+			"path" : "pages/user/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/pay-webview",
+			"style" :
+			{
+				"navigationBarTitleText" : "Payment",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/crypto-pay",
+			"style" :
+			{
+				"navigationBarTitleText" : "虚拟币支付",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/index/tavip",
+			"style" : 
+			{
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path" : "pages/tuikuan/tuikuan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "申请退款"
+			}
+		},
+		{
+			"path" : "pages/chatNew/chatNew",
+			"style" : 
+			{
+				"navigationBarTitleText" : "讯息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/chatNew/chatpage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/tiaokuan/tiaokuan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/user/yinshi/yinshi",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/user/lianxiwomen/lianxiwomen",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "yuming",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#222222",
+		"selectedColor": "#333333",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/swipe",
+				"iconPath": "/static/home/zan.png",
+				"selectedIconPath": "/static/home/xzan.png",
+				"text": "推荐"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home1.png",
+				"text": "发现"
+			},
+			{ 
+				"pagePath": "pages/work/work",
+				"iconPath": "/static/tabbar/work.png", 
+				"selectedIconPath": "/static/tabbar/work1.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "pages/chatNew/chatNew",
+				"iconPath": "/static/tabbar/chat.png",
+				"selectedIconPath": "/static/tabbar/chat1.png",
+				"text": "消息"
+			},{
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/tabbar/user.png",
+				"selectedIconPath": "/static/tabbar/user1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
